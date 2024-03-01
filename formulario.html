@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+
+<body class="fondo">
+    <form name=formulario method="post" action="mailto:raul.rodriguez@proeducaglobal.com" class="textoG">
+        <fieldset>
+            <legend>Breaking Bad - Que comience el juego!</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                *Nombre: <input type="text" name="nombre" id="" label="nombre" required>
+                <br>
+                *Apellidos: <input type="text" name="apellidos" id="" label="apellidos" required>
+                <br>
+                DNI: <input type="text" name="DNI" id="" label="DNI">
+                <br>
+                *Correo electronico: <input type="email" name="Correo" id="" label="Correo" required>
+                <br>
+                Fecha de nacimiento: <input type="date">
+                <fieldset>
+                    <legend>Direccion</legend>
+                    Calle: <input type="text" name="calle" id="" label="calle">
+                    Numero: <input type="number" name="numero" id="" label="numero">
+                    Piso: <input type="number" name="Piso" id="" label="Piso">
+                    Puerta: <input type="text" name="Puerta" id="" label="Puerta">
+                    Codigo Postal: <input type="number" name="Codigo Postal" id="" label="Codigo Postal">
+                    Ciudad: <input type="text" name="Ciudad" id="" label="Ciudad">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Género</legend>
+                    <input type="radio" name="Sexo" value="Hombre">Hombre
+                    <input type="radio" name="Sexo" value="Mujer">Mujer
+                    <input type="radio" name="Sexo" value="Otro">Otro
+                </fieldset>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>¿Cuál es tu personaje favorito?</legend>
+                <select name="personaje" id="">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otro</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend> Comentario</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>¡Mandanos tus cosplays de Breaking Bad! </legend>
+                <br>
+                <input type="file" name="disfraces" accept=".png, .jpg, .jpeg, .gif" multiple>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <br>
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
